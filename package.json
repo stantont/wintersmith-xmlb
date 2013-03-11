@@ -1,7 +1,7 @@
 {
   "name": "wintersmith-xmlb",
-  "version": "0.0.1",
-  "description": "'xmlb' template plugin to generate XML with Wintersmith static site generator",
+  "version": "0.0.2",
+  "description": "xmlb template plugin Wintersmith",
   "homepage": "https://github.com/stantont/wintersmith-xmlb",
   "main": "index.js",
   "scripts": {
