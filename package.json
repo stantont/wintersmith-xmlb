@@ -1,18 +1,27 @@
 {
   "name": "wintersmith-xmlb",
   "version": "0.0.1",
-  "description": "'xmlb' template plugin for Wintersmith.",
+  "description": "'xmlb' template plugin to generate XML with Wintersmith static site generator",
+  "homepage": "https://github.com/stantont/wintersmith-xmlb",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stantont/wintersmith-xmlb.git"
+  },
   "keywords": [
     "wintersmith",
     "template",
-    "plugin"
+    "plugin",
+    "xml",
+    "xmlb"
   ],
-  "author": "Stanton Teters",
+  "author": {
+    "name": "Stanton Teters",
+    "email": "stantont@gmail.com"
+  },
   "license": "BSD",
   "dependencies": {
     "coffee-script": "~1.6.1",
