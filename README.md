@@ -4,7 +4,7 @@ A template plugin for the Wintersmith static site generator that lets one to wri
 
 The *xmlb* template library uses the *xmlbuilder-js* library to generate XML.
 
-My need for generating XML was to generate a sitemap file. It could also be used to generate RSS and Atom feeds.
+My need for outputting XML was to generate a sitemap file. It could also be used to generate RSS and Atom feeds.
 
 Here's an example of a snippet of a sitemap.xmlb template:
 
@@ -30,4 +30,4 @@ pages.forEach(function(item){
 * [xmlb](https://github.com/jaredhanson/xmlb)
 * [xmlbuilder-js](https://github.com/oozcitak/xmlbuilder-js)
 
-A special thanks to the [wintersmith-ejs](https://github.com/stephenallred/wintersmith-ejs) project by [Stephen Allred](https://github.com/stephenallred) for which I used as the template for this project.
+A special thanks to the [wintersmith-ejs](https://github.com/stephenallred/wintersmith-ejs) project by [Stephen Allred](https://github.com/stephenallred), which I used as the template for this project.
