@@ -1,6 +1,6 @@
 {
   "name": "wintersmith-xmlb",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "xmlb template plugin for Wintersmith",
   "homepage": "https://github.com/stantont/wintersmith-xmlb",
   "main": "index.js",
