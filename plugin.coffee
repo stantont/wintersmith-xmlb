@@ -13,9 +13,9 @@ module.exports = (wintersmith, callback) ->
         callback null, new Buffer @tpl(locals)
       catch error
         callback error
-        
-  XmlbTemplate.fromFile = (filename, base, callback) ->
-    fs.readFile path.join(base, filename), (error, contents) ->
+
+  XmlbTemplate.fromFile = (filepath, callback) ->
+    fs.readFile filepath.full, (error, contents) ->
       if error then callback error
       else
         try
@@ -26,4 +26,4 @@ module.exports = (wintersmith, callback) ->
 
   wintersmith.registerTemplatePlugin '**/*.xmlb', XmlbTemplate
   callback()
-          
+
